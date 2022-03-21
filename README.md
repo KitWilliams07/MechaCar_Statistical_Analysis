@@ -99,6 +99,10 @@ P-Value: 0.04168
 The p-value of 0.04168 is smaller than the significance level cutoff. This means the Lot 3 mean PSI is statistically different to the population value of 1500. This suggests again that the Lot 3 PSI values are off and something is wrong with this lot. 
 
 
+## Study Design: MechaCar vs Competition
+
+A study could be created that compares the MechaCar ____ compared to its competition
+
 
 
 
