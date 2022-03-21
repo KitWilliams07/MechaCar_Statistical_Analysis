@@ -67,4 +67,38 @@ First, a T-Test comparing all the PSI of all the lots as a whole with respect to
 
 ![alt text](https://raw.githubusercontent.com/KitWilliams07/MechaCar_Statistical_Analysis/main/Multiple_Linear_Regression/Resources/all_lots_t.png)
 
+Since the total population had a mean PSI of 1498.78, the resulting p-value of the T-Test is 0.06028. Using a significance level of 0.05 means that as a whole, the mean PSI of the population is statistically similar to what it should be, 1500 PSI.
+
+Next, a T-test was completed comparing the mean PSI of each lot compared to the nominal value of 1500 PSI.
+
+Lot 1: 
+
+![alt text](https://raw.githubusercontent.com/KitWilliams07/MechaCar_Statistical_Analysis/main/Multiple_Linear_Regression/Resources/lot1_t.png)
+
+Mean PSI: 1500
+P-Value: 1
+
+Since the p-value = 1 that means the Lot 1 mean PSI is identical to the population value of 1500. 
+
+Lot 2: 
+
+![alt text](https://raw.githubusercontent.com/KitWilliams07/MechaCar_Statistical_Analysis/main/Multiple_Linear_Regression/Resources/lot2_t.png)
+
+Mean PSI: 1500.2
+P-Value: 0.6072
+
+The p-value of 0.6072 is much greater than the significance level cutoff. This means the Lot 2 mean PSI is statistically very similar to the population value of 1500.
+
+Lot 3: 
+
+![alt text](https://raw.githubusercontent.com/KitWilliams07/MechaCar_Statistical_Analysis/main/Multiple_Linear_Regression/Resources/lot3_t.png)
+
+Mean PSI: 1496.14
+P-Value: 0.04168
+
+The p-value of 0.04168 is smaller than the significance level cutoff. This means the Lot 3 mean PSI is statistically different to the population value of 1500. This suggests again that the Lot 3 PSI values are off and something is wrong with this lot. 
+
+
+
+
 
