@@ -101,7 +101,18 @@ The p-value of 0.04168 is smaller than the significance level cutoff. This means
 
 ## Study Design: MechaCar vs Competition
 
-A study could be created that compares the MechaCar ____ compared to its competition
+A study could be created that compares the MechaCar "cost" compared to its competition. Generally speaking, the most important factor when deciding on buying a car is how much it costs. Sure there are important specifications you would like, such as safety rating, fuel efficiency, and cargo space, but these specifications are all what determine the price. So at the end of the day people are mainly focused on what the cost will be when selecting their car.
+
+In order to determine this, a multiple linear regression model would be created to determine which variable affects the price of the car the most. Once this is determined, car buyers can know going into their purchase the trade offs of paying more or less for a car based on which variable will affect the price the most.  A multiple linear regression model works the best with this type of study because it gives a value to how much each variable effects the cost. This is important because it allows buyers to assess what they value more when purchasing a car.
+
+In this Multiple Linear Regression Model the dependant variable will be cost of the car. To start, the predictor variables will be: Vehicle Safety Rating, Fuel Efficiency (Hwy and City), Cargo Space, Horse Power, and Overall Car rating from JD Power. 
+
+Null Hypothesis - There is no relationship between these predictor variables and their effect on cost. 
+
+Alternate Hypothesis - The predictor variable has a statistically significant effect on cost and should remain in the model.
+
+With the model and plan in place, the only thing now would be data on these metrics. These metrics are all typical measures that are associated with a car. For example, Car Consumer Reports often release all sorts of data on cars. This would be a good place to start and collect the metrics mentioned above. Once the data is collected, R would be used to perform the regression model. Based on the output of the regression model (estimates of coefficients and p-values) the predictor variables with the greatest effect on car price could be determined.
+
 
 
 
