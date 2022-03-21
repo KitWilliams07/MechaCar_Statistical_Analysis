@@ -3,7 +3,12 @@
 
 ## Multiple Linear Regression to Predict MPG
 
-The p-value's of the multiple linear regression output represents the probability that each coefficient contributes a random variance to the model. So a lower p-value would mean it is statistically unlikely that variable contributes variance due to randomness. As a result, a small p-value means that the variable instead has a direct and significant impact on the linear model. 
+The dataset used includes specifications on a soon to be created mecha car: vehicle length and weight, AWD, Ground Clearance, and Spoiler Angle. These different variables were used in the regression model to try and estimate the MPG. 
+Below is a screenshot of the Multiple Linear Regression Model Output. 
+
+![alt text](https://raw.githubusercontent.com/KitWilliams07/MechaCar_Statistical_Analysis/main/Multiple_Linear_Regression/Resources/stats.png)
+
+The p-value's of the multiple linear regression output represents the probability that each coefficient contributes random variance to the model. So a lower p-value would mean it is statistically unlikely that the variable contributes variance due to randomness. As a result, a small p-value means that the variable instead has a direct and significant impact on the linear model. 
 
 From the screenshot, you can see that the lowest p-value coefficients are...
 
