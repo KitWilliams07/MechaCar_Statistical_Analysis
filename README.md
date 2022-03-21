@@ -65,4 +65,6 @@ To better understand the differences in the PSI of the suspension coils across t
 
 First, a T-Test comparing all the PSI of all the lots as a whole with respect to what they should be, 1500 PSI. Below is the results of this T-test. 
 
+![alt text](https://raw.githubusercontent.com/KitWilliams07/MechaCar_Statistical_Analysis/main/Multiple_Linear_Regression/Resources/all_lots_t.png)
+
 
