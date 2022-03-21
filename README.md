@@ -27,7 +27,7 @@ Is the slope of the linear model considered to be zero? Why or why not?
 ![alt text](https://raw.githubusercontent.com/KitWilliams07/MechaCar_Statistical_Analysis/main/Multiple_Linear_Regression/Resources/Plots.png)
 (These plots are created for MPG vs each predictor variable while holding the other predictor variables constant) 
 
--Breaking apart the Multiple Linear Regression Model into each predictor variable and MPG plot allows us to see the slope each relationship has. From the output of the model, there are estimates of each coefficient / variable within the model...
+- Breaking apart the Multiple Linear Regression Model into each predictor variable and MPG plot allows us to see the slope each relationship has. From the output of the model, there are estimates of each coefficient / variable within the model...
 
 vehicle_length    6.267e+00  
 vehicle_weight    1.245e-03  
@@ -35,9 +35,9 @@ spoiler_angle     6.877e-02
 ground_clearance  3.546e+00 
 AWD              -3.411e+00 
 
--These estimates represent the slope of the partial regression plot. For example, MPG vs Vehicle Length shows a strong positive slope, reflected by the value above of 6.267. Additionally, the MPG vs AWD plot shows a negative slope, shown by the -3.411 value. We can also see from these plots that Vehicle Weight and Spoiler Angle have essentially a zero slope since their values are 1.245e-03 and 6.877e-02 respectively. 
+- These estimates represent the slope of the partial regression plot. For example, MPG vs Vehicle Length shows a strong positive slope, reflected by the value above of 6.267. Additionally, the MPG vs AWD plot shows a negative slope, shown by the -3.411 value. We can also see from these plots that Vehicle Weight and Spoiler Angle have essentially a zero slope since their values are 1.245e-03 and 6.877e-02 respectively. 
 
--So based on these slope values and the p-values discussed above, each variable contributes a different amount to this model. It is hard to say the slope of the entire model is zero. Certain variables (Vehicle Weight and Spoiler Angle) show a slope of zero, however these variables are considered significant to the system. From the partial regression plots and p-values, the only important variables are Vehicle Length and Ground Clearance. These variables show a positive, non-zero slope, so as the variable increases the MPG does as well. 
+- So based on these slope values and the p-values discussed above, each variable contributes a different amount to this model. It is hard to say the slope of the entire model is zero. Certain variables (Vehicle Weight and Spoiler Angle) show a slope of zero, however these variables are considered significant to the system. From the partial regression plots and p-values, the only important variables are Vehicle Length and Ground Clearance. These variables show a positive, non-zero slope, so as the variable increases the MPG does as well. 
 
 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
