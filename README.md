@@ -16,10 +16,15 @@ Vehicle Length = 2.60e-12
 Intercept = 5.08e-08
 Ground Clearance = 5.21e-08
 
+As a result of the model, a few questions could be asked to better understand what the model predicted...
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+- Assuming we are using a signifiance level of of 5%, any p-value that is less than 0.05 will prove statistically significant to the model. So, that leaves Vehicle Lenght, Ground Clearance, and the Intercept as the variables that provided a non-random amount of variance. 
 
 Is the slope of the linear model considered to be zero? Why or why not?
+- To better highlight this question, partial regression plots were made to show the slope each predictor variable had in relation to MPG. 
+
+![alt text](https://raw.githubusercontent.com/KitWilliams07/MechaCar_Statistical_Analysis/main/Multiple_Linear_Regression/Resources/plots.png)
 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 - Not a great model 
