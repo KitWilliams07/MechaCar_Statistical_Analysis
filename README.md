@@ -46,5 +46,5 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 - So to improve this model, Vehicle Lenght and Ground Clearance should remain and the other variables should be removed from the model. Possible other predictor variables that could be used are an Aerodynamics Rating or engine size. 
 
 
-
+## Summary Statistics on Suspension Coils
 
