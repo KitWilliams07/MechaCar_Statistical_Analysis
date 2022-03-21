@@ -24,7 +24,7 @@ Which variables/coefficients provided a non-random amount of variance to the mpg
 Is the slope of the linear model considered to be zero? Why or why not?
 - To better highlight this question, partial regression plots were made to show the slope each predictor variable had in relation to MPG. 
 
-![alt text](https://raw.githubusercontent.com/KitWilliams07/MechaCar_Statistical_Analysis/main/Multiple_Linear_Regression/Resources/plots.png)
+![alt text](https://raw.githubusercontent.com/KitWilliams07/MechaCar_Statistical_Analysis/main/Multiple_Linear_Regression/Resources/Plots.png)
 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 - Not a great model 
