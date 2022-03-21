@@ -57,3 +57,12 @@ The point of these statistics are to ensure there is consistency across the manu
 ![alt text](https://raw.githubusercontent.com/KitWilliams07/MechaCar_Statistical_Analysis/main/Multiple_Linear_Regression/Resources/lot_stats.png)
 
 This data frame displays the same info but filtered based on the Lot. From this, Lots 1 and 2 are consistent and operating as intended. However, Lot 3 seems to have extreme values both far above and below the normal mean. This is because the mean and median have not changed that much compared to the normal, however the variance and SD amongst the data has changed drastically. Something needs to be fixed in Lot 3 in order to keep it up to standard with the other 2. However, as a collective unit the overall variance is still under 100 so they still meet design specifications when considered together. 
+
+
+## T-Tests on Suspension Coils
+
+To better understand the differences in the PSI of the suspension coils across the different lots, a few T-tests were ran. 
+
+First, a T-Test comparing all the PSI of all the lots as a whole with respect to what they should be, 1500 PSI. Below is the results of this T-test. 
+
+
