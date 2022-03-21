@@ -48,6 +48,10 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 
 ## Summary Statistics on Suspension Coils
 
-Using the Suspension Coils dataset, some high level summary statistics were used to better understand the data. The statistics were generated from the whole dataset. 
+Using the Suspension Coils dataset, some high level summary statistics were used to better understand the data. The statistics were generated from the whole dataset of PSI readings for every vehicle across the 3 different lots.
 
 ![alt text](https://raw.githubusercontent.com/KitWilliams07/MechaCar_Statistical_Analysis/main/Multiple_Linear_Regression/Resources/total_stats.png)
+
+The point of these statistics are to ensure there is consistency across the manufacturing plants for suspension coils. In order to figure this out, a more descriptive table had to be created.  
+
+![alt text](https://raw.githubusercontent.com/KitWilliams07/MechaCar_Statistical_Analysis/main/Multiple_Linear_Regression/Resources/lot_stats.png)
