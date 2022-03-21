@@ -25,8 +25,26 @@ Is the slope of the linear model considered to be zero? Why or why not?
 - To better highlight this question, partial regression plots were made to show the slope each predictor variable had in relation to MPG. 
 
 ![alt text](https://raw.githubusercontent.com/KitWilliams07/MechaCar_Statistical_Analysis/main/Multiple_Linear_Regression/Resources/Plots.png)
+(These plots are created for MPG vs each predictor variable while holding the other predictor variables constant) 
+
+-Breaking apart the Multiple Linear Regression Model into each predictor variable and MPG plot allows us to see the slope each relationship has. From the output of the model, there are estimates of each coefficient / variable within the model...
+
+vehicle_length    6.267e+00  
+vehicle_weight    1.245e-03  
+spoiler_angle     6.877e-02   
+ground_clearance  3.546e+00 
+AWD              -3.411e+00 
+
+-These estimates represent the slope of the partial regression plot. For example, MPG vs Vehicle Length shows a strong positive slope, reflected by the value above of 6.267. Additionally, the MPG vs AWD plot shows a negative slope, shown by the -3.411 value. We can also see from these plots that Vehicle Weight and Spoiler Angle have essentially a zero slope since their values are 1.245e-03 and 6.877e-02 respectively. 
+
+-So based on these slope values and the p-values discussed above, each variable contributes a different amount to this model. It is hard to say the slope of the entire model is zero. Certain variables (Vehicle Weight and Spoiler Angle) show a slope of zero, however these variables are considered significant to the system. From the partial regression plots and p-values, the only important variables are Vehicle Length and Ground Clearance. These variables show a positive, non-zero slope, so as the variable increases the MPG does as well. 
+
 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-- Not a great model 
-- Intercept --> when an intercept is statistically significant, that means it plays a large role in the model when the other predictors are zero. This could mean that there are important predictive variables for the model that we have left out. 
-- Half the coeffeicients have a p-value greater than threshold, so they are deemed statistically insignificant and should not be included in the model.
+- Overall this is not a great model. For starters, many of the coefficients have a p-value greater than the threshold. These variables are deemed statistically insignificant and should not be included in the model. In simple terms, that means these variables are not good indicators of MPG for this car. 
+- Additionally, since the intercept is statistically significant, that means it plays a large role in the model when the other predictors are zero. Since the intercept has such a large effect on this model, this could mean that there are important predictive variables for the model that we have left out.
+- So to improve this model, Vehicle Lenght and Ground Clearance should remain and the other variables should be removed from the model. Possible other predictor variables that could be used are an Aerodynamics Rating or engine size. 
+
+
+
+
